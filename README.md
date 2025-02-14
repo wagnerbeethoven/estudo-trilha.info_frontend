@@ -24,37 +24,37 @@
 - [x] ~~Como importar o CSS | Mod01 - Aula 10~~
 - [x] ~~Sistema de cores | Mod01 - Aula 11~~
 - [x] ~~Reset CSS | Mod01 - Aula 12~~
-- [ ] Exemplos de Reset CSS | Mód01 - Aula 13
-- [ ] CSS do menu de navegação | Mód01 - Aula 14
-- [ ] Qual a diferença entre Serif e Sans Serif? | Mód01 - Aula 15
-- [ ] Como estilizar um botão | Mód01 - Aula 16
-- [ ] O que é a propriedade display? | Mód01 - Aula 17
-- [ ] Como funciona o display: inline | Mód01 - Aula 18
-- [ ] Como funciona o display: block | Mód01 - Aula 19
-- [ ] Como funciona o display: inline-block | Mód01 - Aula 20
-- [ ] Qual a diferença entre padding e margin? | Mód01 - Aula 21
-- [ ] Forma específica e resumida | Mód01 - Aula 22
-- [ ] O px no CSS não é 1px da tela | Mód01 - Aula 23
-- [ ] Detalhe nos itens do menu | Mód01 - Aula 24
-- [ ] CSS do header - Parte 2 | Mód01 - Aula 25
-- [ ] Revisão Módulo 01 | Mod01 - Aula 26
-- [ ] Desafios top-top-top | Mód01 - Aula 27
-- [ ] Como mudar logo e cores do header | Mód02 - Aula 01
-- [ ] Efeito hover no button | Mód02 - Aula 02
-- [ ] O que é Git? | Mód02 - Aula 03
-- [ ] Como instalar o Git? | Mód02 - Aula 04
-- [ ] O que é repositório? | Mód02 - Aula 05
-- [ ] Como fazer commit com Git | Mód02 - Aula 06
-- [ ] Como editar mensagem do commit com Git | Mód02 - Aula 07
-- [ ] O que é GitHub? | Mód02 - Aula 08
-- [ ] Como criar repositório no GitHub? | Mód02 - Aula 09
-- [ ] Como enviar o código para o GitHub | Mód02 - Aula 10
-- [ ] Como clonar um repositório do GitHub | Mód02 - Aula 11
-- [ ] O que é o GitHub pages? | Mód02 - Aula 12
-- [ ] Como criar site no GitHub pages | Mód02 - Aula 13
-- [ ] Como colocar seu projeto no ar com o GitHub Pages | Mód02 - Aula 14
-- [ ] Revisão Módulo 02 | Mod02 - Aula 15
-- [ ] Desafios top-top-top | Mód02 - Aula 16
+- [x] ~~Exemplos de Reset CSS | Mód01 - Aula 13~~
+- [x] ~~CSS do menu de navegação | Mód01 - Aula 14~~
+- [x] ~~Qual a diferença entre Serif e Sans Serif? | Mód01 - Aula 15~~
+- [x] ~~Como estilizar um botão | Mód01 - Aula 16~~
+- [x] ~~O que é a propriedade display? | Mód01 - Aula 17~~
+- [x] ~~Como funciona o display: inline | Mód01 - Aula 18~~
+- [x] ~~Como funciona o display: block | Mód01 - Aula 19~~
+- [x] ~~Como funciona o display: inline-block | Mód01 - Aula 20~~
+- [x] ~~Qual a diferença entre padding e margin? | Mód01 - Aula 21~~
+- [x] ~~Forma específica e resumida | Mód01 - Aula 22~~
+- [x] ~~O px no CSS não é 1px da tela | Mód01 - Aula 23~~
+- [x] ~~Detalhe nos itens do menu | Mód01 - Aula 24~~
+- [x] ~~CSS do header - Parte 2 | Mód01 - Aula 25~~
+- [x] ~~Revisão Módulo 01 | Mod01 - Aula 26~~
+- [x] ~~Desafios top-top-top | Mód01 - Aula 27~~
+- [x] ~~Como mudar logo e cores do header | Mód02 - Aula 01~~
+- [x] ~~Efeito hover no button | Mód02 - Aula 02~~
+- [x] ~~O que é Git? | Mód02 - Aula 03~~
+- [x] ~~Como instalar o Git? | Mód02 - Aula 04~~
+- [x] ~~O que é repositório? | Mód02 - Aula 05~~
+- [x] ~~Como fazer commit com Git | Mód02 - Aula 06~~
+- [x] ~~Como editar mensagem do commit com Git | Mód02 - Aula 07~~
+- [x] ~~O que é GitHub? | Mód02 - Aula 08~~
+- [x] ~~Como criar repositório no GitHub? | Mód02 - Aula 09~~
+- [x] ~~Como enviar o código para o GitHub | Mód02 - Aula 10~~
+- [x] ~~Como clonar um repositório do GitHub | Mód02 - Aula 11~~
+- [x] ~~O que é o GitHub pages? | Mód02 - Aula 12~~
+- [x] ~~Como criar site no GitHub pages | Mód02 - Aula 13~~
+- [x] ~~Como colocar seu projeto no ar com o GitHub Pages | Mód02 - Aula 14~~
+- [x] ~~Revisão Módulo 02 | Mod02 - Aula 15~~
+- [x] ~~Desafios top-top-top | Mód02 - Aula 16~~
 - [ ] Como criar HTML do title | Mód03 - Aula 01
 - [ ] CSS do title - Parte I | Mód03 - Aula 02
 - [ ] Como inserir sombra no texto | Mód03 - Aula 03
