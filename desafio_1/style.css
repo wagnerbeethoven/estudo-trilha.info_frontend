@@ -1,5 +1,5 @@
 @import url("css/typo.css");
-@import url("css/color.css");
+@import url("css/var.css");
 html,
 body {
   margin: 0;
@@ -23,7 +23,8 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-nav a {
+nav a,
+.menu-item-block {
   font-family: "Fira Code";
   font-size: 20px;
   font-style: normal;
@@ -35,6 +36,9 @@ nav a {
   padding: 1rem 2rem;
   text-decoration: none;
 }
+nav a:hover {
+  color: var(--color-black-first);
+}
 nav a:before {
   content: "";
   aspect-ratio: 1/1;
@@ -43,54 +47,46 @@ nav a:before {
   background-color: var(--color-first);
   margin-right: 8px;
 }
-nav a.block {
+.menu-item-block {
   background: var(--color-first);
-  box-shadow: 5px 5px 0px 0px #000;
+  box-shadow: var(--shadow-solid);
   padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: transform 2s;
+}
+.menu-item-block:hover {
+  color: var(--color-third);
+  background: var(--color-black-first);
+  transform: scale(1.05);
+}
+nav a.block:focus {
+  background: var(--color-third);
+  color: var(--color-black-first);
 }
 nav a.block:before {
   display: none;
 }
 
 section.banner {
-  background-image: url(img/banner.jpg);
-  object-fit: cover;
   height: 797px;
   position: relative;
 }
 
-section.banner:before,
-section.banner:after {
-  content: "";
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  top: 0;
-  z-index: 0;
-  opacity: 0.34;
-}
-section.banner:before {
-  background: #000;
-  left: 0;
-}
-section.banner:after {
-  right: 0;
-  background: #fff;
-}
 .container-banner {
   z-index: 2;
-  position: absolute;
-  padding: 8rem;
+  position: relative;
+  width: 50%;
+  margin: 16rem auto auto 8rem;
 }
-.container-banner div {
-  width: 105%;
+.hero {
+  padding: 8rem;
   height: 184px;
   padding: 2.625rem;
   background: var(--color-black-second);
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: var(--shadow-solid);
   flex-direction: column;
 }
 .container-banner h1,
@@ -99,21 +95,89 @@ section.banner:after {
   line-height: 1.3;
 }
 .container-banner h1 {
-  color: var(----color-first, #f25a70);
+  color: var(--color-first);
   text-shadow: 4px 4px 0px #000;
   font-family: "Press Start 2P";
-  font-size:  3.5rem;
+  font-size: 3.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 .container-banner h2 {
-  color: var(----color-third, #fff);
+  color: var(--color-third);
   text-shadow: 4px 4px 0px #000;
   margin-top: 2.5rem;
   font-family: "Press Start 2P";
-  font-size: 2.375rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.bt-group {
+  margin: 2rem 0 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+.section_title {
+  color: var(----color-third, #fff);
+
+  /* Headline */
+  font-family: "Press Start 2P";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.skills {
+  background: var(--color-first);
+  padding: 3.75rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-bottom: 10px solid var(--color-second);
+}
+.skills ul {
+  list-style: none;
+  display: grid;
+  width: 1000px;
+  gap: 3rem;
+  padding: 0;
+  grid-template-columns: 1fr 1fr;
+}
+.skills ul li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.skills ul li h3 {
+  color: var(--color-third);
+  margin: 0 0 1rem 0;
+
+  /* Subtitle */
+  font-family: "Press Start 2P";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.skills ul li img {
+  width: 90px;
+  height: 90px;
+}
+.skills ul li > div {
+  flex-grow: 1;
+  padding-left: 1rem;
+}
+
+.skills ul li .progress {
+  border: 5px solid var(--color-black-first);
+  background: var(--color-third);
+  height: 30px;
+}
+.skills ul li .progress span {
+  display: inline-block;
+  background: var(--color-second);
+  height: 100%;
 }
