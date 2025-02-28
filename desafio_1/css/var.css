@@ -3,6 +3,7 @@
   --color-first: #f25a70;
   --color-second: #7c5e99;
   --color-third: #fff;
+  --color-fourth: #4c5b84;
   /* blacks */
   --color-black-first: #000;
   --color-black-second: #3a4042;
@@ -11,5 +12,6 @@
   --color-error: #ba1f33;
   --color-warning: #ceb02a;
   --color-success: #62c370;
+  --shadow-projects: 10px 10px 0px 0px;
   --shadow-solid: 5px 5px 0px 0px #000;
 }

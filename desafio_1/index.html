@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wagner Beethoven &mdash; Desafio 1 / Trilha Front-End</title>
+  <title>Marco Bruno &mdash; Front-end Developer / Trilha Front-End</title>
   <link rel="stylesheet" href="style.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
@@ -18,13 +18,14 @@
       alt="ilustração d eum homem de barba e cabelo castanhos, usa óculos e camisa azul. Ao fundo um círculo azul claro.">
     <nav>
       <a href="#skills" lang="en">Skills</a>
-      <a href="#projetos">Projetos</a>
+      <a href="#projects">Projetos</a>
       <a href="#sobre">Sobre</a>
       <a href="#contatos">Contatos</a>
       <a href="#cv" class="block">Currículo</a>
     </nav>
   </header>
-  <section class="banner">
+
+  <section id="banner" class="banner">
 
 
     <div class="container-banner">
@@ -38,77 +39,132 @@
       </div>
     </div>
   </section>
-  <section class="skills">
-    <h2 class="section_title">Skills</h2>
-    <ul>
-      <li class="skill-html">
-        <img src="img/ico/ico_html.png" alt="ico_html">
-        <div>
 
-          <h3>HTML</h3>
-          <div class="progress"><span style="width: 95%"></span></div>
-        </div>
-      </li>
-      <li class="skill-nodejs">
-        <img src="img/ico/ico_nodejs.png" alt="ico_nodejs">
-        <div>
+  <section id="skills" class="skills">
 
-          <h3>NodeJS</h3>
-          <div class="progress"><span style="width: 85%"></span></div>
-        </div>
-      </li>
-      <li class="skill-css">
-        <img src="img/ico/ico_css.png" alt="ico_css">
-        <div>
+    <div class="container">
+      <h2 class="section_title">Skills</h2>
+      <ul>
+        <li class="skill-html">
+          <img src="img/ico/ico_html.png" alt="ico_html">
+          <div>
 
-          <h3>CSS</h3>
-          <div class="progress"><span style="width: 75%"></span></div>
-        </div>
-      </li>
-      <li class="skill-tdd">
-        <img src="img/ico/ico_tdd.png" alt="ico_tdd">
-        <div>
+            <h3>HTML</h3>
+            <div class="progress"><span style="width: 95%"></span></div>
+          </div>
+        </li>
+        <li class="skill-nodejs">
+          <img src="img/ico/ico_nodejs.png" alt="ico_nodejs">
+          <div>
 
-          <h3>TDD</h3>
-          <div class="progress"><span style="width: 65%"></span></div>
-        </div>
-      </li>
-      <li class="skill-js">
-        <img src="img/ico/ico_js.png" alt="ico_js">
-        <div>
+            <h3>NodeJS</h3>
+            <div class="progress"><span style="width: 85%"></span></div>
+          </div>
+        </li>
+        <li class="skill-css">
+          <img src="img/ico/ico_css.png" alt="ico_css">
+          <div>
 
-          <h3>JavaScript</h3>
-          <div class="progress"><span style="width: 50%"></span></div>
-        </div>
-      </li>
-      <li class="skill-rest">
-        <img src="img/ico/ico_restapi.png" alt="ico_rest">
-        <div>
+            <h3>CSS</h3>
+            <div class="progress"><span style="width: 75%"></span></div>
+          </div>
+        </li>
+        <li class="skill-tdd">
+          <img src="img/ico/ico_tdd.png" alt="ico_tdd">
+          <div>
 
-          <h3>RestAPI</h3>
-          <div class="progress"><span style="width: 70%"></span></div>
-        </div>
-      </li>
-      <li class="skill-react">
-        <img src="img/ico/ico_react.png" alt="ico_react">
-        <div>
+            <h3>TDD</h3>
+            <div class="progress"><span style="width: 65%"></span></div>
+          </div>
+        </li>
+        <li class="skill-js">
+          <img src="img/ico/ico_js.png" alt="ico_js">
+          <div>
 
-          <h3>React</h3>
-          <div class="progress"><span style="width: 35%"></span></div>
-        </div>
-      </li>
-      <li class="skill-ux">
-        <img src="img/ico/ico_ux.png" alt="ico_ux">
-        <div>
+            <h3>JavaScript</h3>
+            <div class="progress"><span style="width: 50%"></span></div>
+          </div>
+        </li>
+        <li class="skill-rest">
+          <img src="img/ico/ico_restapi.png" alt="ico_rest">
+          <div>
 
-          <h3>UX</h3>
-          <div class="progress"><span style="width: 35%"></span></div>
-        </div>
-      </li>
-    </ul>
+            <h3>RestAPI</h3>
+            <div class="progress"><span style="width: 70%"></span></div>
+          </div>
+        </li>
+        <li class="skill-react">
+          <img src="img/ico/ico_react.png" alt="ico_react">
+          <div>
+
+            <h3>React</h3>
+            <div class="progress"><span style="width: 35%"></span></div>
+          </div>
+        </li>
+        <li class="skill-ux">
+          <img src="img/ico/ico_ux.png" alt="ico_ux">
+          <div>
+
+            <h3>UX</h3>
+            <div class="progress"><span style="width: 35%"></span></div>
+          </div>
+        </li>
+      </ul>
+    </div>
   </section>
 
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section_title">Projetos</h2>
+      <ul>
+        <li><img src="img/projects/project_1.svg" alt=""></li>
+        <li><img src="img/projects/project_2.png" alt=""></li>
+        <li><img src="img/projects/project_3.jpg" alt=""></li>
+      </ul>
+    </div>
 
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section_title">Sobre</h2>
+      <p>Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi
+        palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o
+        percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las,
+        palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e
+        seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="container">
+      <h2 class="section_title">Contato</h2>
+      <form action="#">
+        <div class="form-input">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-input">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-input">
+          <label for="mensagem">Mensagem</label>
+          <textarea name="mensagem" id="mensagem"></textarea>
+        </div>
+        <button>Enviar</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <ul class="container">
+      <li><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>
+      <li><a href="#"><img src="img/youtube.png" alt="youtube"></a></li>
+      <li><a href="#"><img src="img/discord.png" alt="discord"></a></li>
+    </ul>
+
+
+
+  </footer>
 </body>
 
 </html>
