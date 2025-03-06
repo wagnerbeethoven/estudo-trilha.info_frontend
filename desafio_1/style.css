@@ -1,34 +1,48 @@
 @import url("css/typo.css");
 @import url("css/var.css");
+
+* {
+  box-sizing: content-box;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
 }
+
 body {
   font-size: 16px;
   font-family: "Fira Code";
 }
+
 header {
   background: var(--color-second);
   box-shadow: 0px 10px 0px 0px #000;
   height: 80px;
-  display: flex;
-  justify-content: space-between;
+
   padding: 0.5rem 1rem;
 }
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo {
   width: 80px;
   height: 80px;
   aspect-ratio: 1/1;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 nav a,
-.menu-item-block {
+.block {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -39,9 +53,11 @@ nav a,
   padding: 1rem 2rem;
   text-decoration: none;
 }
+
 nav a:hover {
   color: var(--color-black-first);
 }
+
 nav a:before {
   content: "";
   aspect-ratio: 1/1;
@@ -50,22 +66,26 @@ nav a:before {
   background-color: var(--color-first);
   margin-right: 8px;
 }
-.menu-item-block {
+
+.block {
   background: var(--color-first);
   box-shadow: var(--shadow-solid);
   padding: 0.5rem 1rem;
   display: inline-block;
   transition: transform 2s;
 }
-.menu-item-block:hover {
+
+.block:hover {
   color: var(--color-third);
   background: var(--color-black-first);
   transform: scale(1.05);
 }
+
 nav a.block:focus {
   background: var(--color-third);
   color: var(--color-black-first);
 }
+
 nav a.block:before {
   display: none;
 }
@@ -81,6 +101,7 @@ section.banner {
   width: 50%;
   margin: 16rem auto auto 8rem;
 }
+
 .hero {
   padding: 8rem;
   height: 184px;
@@ -92,11 +113,13 @@ section.banner {
   box-shadow: var(--shadow-solid);
   flex-direction: column;
 }
+
 .container-banner h1,
 .container-banner h2 {
   margin: 0;
   line-height: 1.3;
 }
+
 .container-banner h1 {
   color: var(--color-first);
   text-shadow: 4px 4px 0px #000;
@@ -106,6 +129,7 @@ section.banner {
   font-weight: 400;
   line-height: normal;
 }
+
 .container-banner h2 {
   color: var(--color-third);
   text-shadow: 4px 4px 0px #000;
@@ -116,14 +140,17 @@ section.banner {
   font-weight: 400;
   line-height: normal;
 }
+
 .bt-group {
   margin: 2rem 0 0 0;
   display: flex;
   justify-content: space-around;
 }
+
 .section_title {
   color: var(----color-third, #fff);
-  text-align: center; /* Headline */
+  text-align: center;
+  /* Headline */
   font-family: "Press Start 2P";
   font-size: 40px;
   font-style: normal;
@@ -136,16 +163,43 @@ section {
   border-bottom: 10px solid transparent;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
-section .container {
-  width: 1000px;
+
+.about .description,
+.contact form,
+.skills ul,
+.projects ul {
+  max-width: 74%;
+
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.contact .container,
+.skills ul,
+.projects ul {
+
+  list-style: none;
+
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.skills ul li {
+  width: 45.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+
 .skills {
   background: var(--color-first);
   align-items: center;
@@ -155,16 +209,8 @@ ul {
   border-bottom-color: var(--color-second);
 }
 
-.skills ul {
-  display: grid;
-  gap: 3rem;
-  grid-template-columns: 1fr 1fr;
-}
-.skills ul li {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
+
+
 .skills ul li h3 {
   color: var(--color-third);
   margin: 0 0 1rem 0;
@@ -175,11 +221,13 @@ ul {
   font-weight: 400;
   line-height: normal;
 }
+
 .skills ul li img {
   width: 90px;
   height: 90px;
 }
-.skills ul li > div {
+
+.skills ul li>div {
   flex-grow: 1;
   padding-left: 1rem;
 }
@@ -189,19 +237,23 @@ ul {
   background: var(--color-third);
   height: 30px;
 }
+
 .skills ul li .progress span {
   display: inline-block;
   background: var(--color-second);
   height: 100%;
 }
+
 .projects {
   border-bottom-color: var(--color-first);
   background: var(--color-black-first);
 }
+
 ul {
   display: flex;
   justify-content: space-between;
 }
+
 .projects ul li {
   aspect-ratio: 1/1;
   width: 280px;
@@ -215,14 +267,17 @@ ul {
   background: var(--color-second);
   box-shadow: var(--shadow-projects) #fff;
 }
+
 .projects ul li:nth-child(2) {
   background: var(--color-fourth);
   box-shadow: var(--shadow-projects) #fff;
 }
+
 .projects ul li:nth-child(3) {
   background: var(--color-first);
   box-shadow: var(--shadow-projects) #fff;
 }
+
 .projects ul li img {
   height: 210px;
   width: 210px;
@@ -249,6 +304,10 @@ ul {
   border-bottom-color: var(--color-black-first);
 }
 
+.contact form {
+  width: 100%;
+}
+
 label {
   color: var(--color-third);
   font-size: 1.5rem;
@@ -266,6 +325,7 @@ textarea {
   background: var(--color-third);
   margin: 0.5rem 0 1.5rem;
 }
+
 textarea {
   height: 318.74px;
 }
@@ -283,17 +343,126 @@ button {
   background: var(--color-first);
   box-shadow: 5px 5px 0px 0px #000;
 }
+
 footer {
   background: var(--color-black-first);
   justify-content: center;
   display: flex;
   padding: 1.5rem 0;
 }
+
 footer ul li {
   margin: 0 2rem;
 }
+
 footer img {
   aspect-ratio: 1/1;
   width: 2rem;
   height: 2rem;
+}
+
+
+.button-arrow {
+  box-shadow: var(--shadow-solid);
+  aspect-ratio: 1/1;
+  height: calc(48px + 2rem);
+  width: calc(48px + 2rem);
+  display: inline-block;
+  background-color: var(--color-first);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.5rem;
+  border-width: 0;
+}
+
+.button-arrow span {
+  display: none;
+}
+
+.button-arrow:before {
+  content: "";
+  box-sizing: border-box;
+  height: 32px;
+  width: 32px;
+  border: transparent solid 24px;
+  display: block;
+  transform: translateX(-1rem);
+}
+
+.button-right:before,
+.button-left:before {
+  border-width: 24px;
+  border-right-width: 48px;
+  border-right-color: var(--color-third);
+
+}
+
+.button-right:before {
+  transform: rotate(180deg) translateX(-1rem);
+
+}
+
+.card {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.card img {
+  padding: 3.25rem;
+  height: 8rem;
+  width: 8rem;
+  border: .5rem solid var(--color-black-first);
+  object-fit: contain;
+
+}
+.card-impulso img, .card-locaweb img{background-color: var(--color-warning);}
+.card-caelum img{background-color: #f7ec16;}
+.card-collabcode img,.card-getninjas img {background-color: var(--color-first);}
+  
+
+
+.card figcaption {
+  color: var(--color-first);
+  text-align: center;
+  font-family: "Press Start 2P";
+  font-size: 2rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.card figcaption span {
+  padding-bottom: 1rem;
+  display: inline-block;
+}
+
+.card figcaption:after {
+  align-self: center;
+  margin-bottom: -0.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  width: .25rem;
+  content: " ";
+  border-left: .25rem dotted var(--color-black-first);
+}
+
+.slide {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.slide,
+.company {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
