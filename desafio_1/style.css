@@ -1,10 +1,61 @@
-@import url("css/typo.css");
-@import url("css/var.css");
-
-* {
-  box-sizing: content-box;
+/* tipografia */
+.fira-code-light {
+  font-family: "Fira Code", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
+.fira-code-regular {
+  font-family: "Fira Code", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-code-medium {
+  font-family: "Fira Code", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-code-semibold {
+  font-family: "Fira Code", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-code-bold {
+  font-family: "Fira Code", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.press-start-2p {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* variavels */
+
+:root {
+  /* base */
+  --color-first: #f25a70;
+  --color-second: #7c5e99;
+  --color-third: #fff;
+  --color-fourth: #4c5b84;
+  /* blacks */
+  --color-black-first: #000;
+  --color-black-second: #3a4042;
+  --color-black-third: #828282;
+  /* status */
+  --color-error: #ba1f33;
+  --color-warning: #ceb02a;
+  --color-success: #62c370;
+  --shadow-projects: 10px 10px 0px 0px;
+  --shadow-solid: 5px 5px 0px 0px #000;
+}
+
+/* GERAL */
 html,
 body {
   margin: 0;
@@ -16,11 +67,24 @@ body {
   font-family: "Fira Code";
 }
 
+section {
+  padding: 3.75rem 0;
+  border-bottom: 10px solid transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+figure {
+  margin: 0;
+
+}
+
+/* HEADER + NAV */
 header {
   background: var(--color-second);
   box-shadow: 0px 10px 0px 0px #000;
   height: 80px;
-
   padding: 0.5rem 1rem;
 }
 
@@ -90,22 +154,55 @@ nav a.block:before {
   display: none;
 }
 
-section.banner {
-  height: 797px;
+
+.banner {
+  height: 48rem;
   position: relative;
+  padding: 0;
+  border-color: var(--color-black-first);
+}
+
+.banner:after,
+.banner:before {
+  content: "";
+  height: 48rem;
+  display: block;
+  position: absolute;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  filter: blur(.25rem);
+}
+
+.banner:before {
+  background-image: url(img/banner1.png);
+  width: 75%;
+  left: 0;
+  background-size: 101%;
+  background-position: left center;
+}
+
+.banner:after {
+  width: 25%;
+  background-image: url(img/banner_2.png);
+  right: 0;
+  background-position: -924px 0;
 }
 
 .container-banner {
   z-index: 2;
   position: relative;
   width: 50%;
-  margin: 16rem auto auto 8rem;
+  position: absolute;
+  margin: 8rem auto auto 8rem;
+  top: 0;
 }
 
 .hero {
   padding: 8rem;
-  height: 184px;
-  padding: 2.625rem;
+  height: 11.5rem;
+  padding: 2.5rem;
   background: var(--color-black-second);
   display: flex;
   align-items: center;
@@ -150,7 +247,6 @@ section.banner {
 .section_title {
   color: var(----color-third, #fff);
   text-align: center;
-  /* Headline */
   font-family: "Press Start 2P";
   font-size: 40px;
   font-style: normal;
@@ -158,13 +254,6 @@ section.banner {
   line-height: normal;
 }
 
-section {
-  padding: 3.75rem;
-  border-bottom: 10px solid transparent;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
 
 
 .about .description,
@@ -172,7 +261,6 @@ section {
 .skills ul,
 .projects ul {
   max-width: 74%;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -180,19 +268,17 @@ section {
 .contact .container,
 .skills ul,
 .projects ul {
-
   list-style: none;
-
   gap: 3rem;
   flex-wrap: wrap;
 }
 
+/* SKILLS */
 .skills ul li {
   width: 45.5%;
   display: flex;
   justify-content: space-between;
 }
-
 
 ul {
   list-style: none;
@@ -208,8 +294,6 @@ ul {
   justify-content: center;
   border-bottom-color: var(--color-second);
 }
-
-
 
 .skills ul li h3 {
   color: var(--color-third);
@@ -236,14 +320,23 @@ ul {
   border: 5px solid var(--color-black-first);
   background: var(--color-third);
   height: 30px;
+  position: relative;
 }
 
 .skills ul li .progress span {
-  display: inline-block;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--color-second);
   height: 100%;
+  color: var(--color-third);
+  letter-spacing: .125rem;
 }
 
+/* PROJETOS */
 .projects {
   border-bottom-color: var(--color-first);
   background: var(--color-black-first);
@@ -278,6 +371,10 @@ ul {
   box-shadow: var(--shadow-projects) #fff;
 }
 
+.projects ul li figcaption {
+  font-size: 0;
+}
+
 .projects ul li img {
   height: 210px;
   width: 210px;
@@ -287,6 +384,7 @@ ul {
   display: block;
 }
 
+/* SOBRE */
 .about {
   background: var(--color-second);
   border-bottom-color: var(--color-black-first);
@@ -297,8 +395,10 @@ ul {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  font-size: 2rem;
 }
 
+/* CONTATO */
 .contact {
   background: var(--color-black-second);
   border-bottom-color: var(--color-black-first);
@@ -344,6 +444,7 @@ button {
   box-shadow: 5px 5px 0px 0px #000;
 }
 
+/* RODAPE */
 footer {
   background: var(--color-black-first);
   justify-content: center;
@@ -361,85 +462,158 @@ footer img {
   height: 2rem;
 }
 
+/* SLIDE */
+
+.slide {
+  margin: 3rem auto;
+  position: relative;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.slide:after,
+.slide:before {
+  content: "";
+  top: 48px;
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.slide:before {
+  width: 100%;
+  border-top: 5px dashed var(--color-black-first);
+}
+
+.slide:after {
+  right: 48px;
+  height: 5px;
+  background-color: var(--color-black-first);
+  width: calc(100% - 6rem);
+  left: 3rem;
+}
+
+
+.carousel {
+  overflow: hidden;
+  width: calc(100% - 16rem);
+  position: relative;
+  margin: 0 auto;
+}
+
+.companies {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  min-width: 10rem;
+  flex-shrink: 0;
+}
 
 .button-arrow {
-  box-shadow: var(--shadow-solid);
-  aspect-ratio: 1/1;
-  height: calc(48px + 2rem);
-  width: calc(48px + 2rem);
-  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
   background-color: var(--color-first);
+  border: none;
+  aspect-ratio: 1/1;
+  width: 5rem;
+  height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3.5rem;
-  border-width: 0;
+  box-shadow: var(--shadow-solid);
+  z-index: 10;
+  font-size: 0;
 }
 
-.button-arrow span {
-  display: none;
+.button-left {
+  left: 10px;
+}
+
+.button-right {
+  right: 10px;
+}
+
+.button-arrow:hover {
+  background-color: var(--color-black-first);
 }
 
 .button-arrow:before {
   content: "";
-  box-sizing: border-box;
-  height: 32px;
-  width: 32px;
-  border: transparent solid 24px;
+  width: 20px;
+  height: 20px;
   display: block;
-  transform: translateX(-1rem);
-}
-
-.button-right:before,
-.button-left:before {
-  border-width: 24px;
-  border-right-width: 48px;
-  border-right-color: var(--color-third);
-
+  border: solid var(--color-third);
+  border-width: 0 3px 3px 0;
+  padding: 5px;
+  position: absolute;
 }
 
 .button-right:before {
-  transform: rotate(180deg) translateX(-1rem);
-
+  transform: rotate(-45deg);
+  right: 1.9rem;
 }
 
+.button-left:before {
+  left: 1.9rem;
+  transform: rotate(135deg);
+}
+
+
+
+
+/* CARD */
 .card {
-  margin: 0;
   display: flex;
   align-items: center;
   flex-direction: column;
-
 }
 
 .card img {
-  padding: 3.25rem;
-  height: 8rem;
+  padding: 1rem 2rem;
   width: 8rem;
   border: .5rem solid var(--color-black-first);
   object-fit: contain;
-
+  aspect-ratio: 1 / 1;
+  height: 8rem;
 }
-.card-impulso img, .card-locaweb img{background-color: var(--color-warning);}
-.card-caelum img{background-color: #f7ec16;}
-.card-collabcode img,.card-getninjas img {background-color: var(--color-first);}
-  
 
+.card-impulso img,
+.card-locaweb img {
+  background-color: var(--color-warning);
+  width: 14rem;
+}
+
+.card-caelum img {
+  background-color: #f7ec16;
+}
+
+.card-collabcode img,
+.card-getninjas img {
+  background-color: var(--color-first);
+}
 
 .card figcaption {
+  display: flex;
+  flex-direction: column;
+}
+
+.card figcaption h3 {
+  padding-bottom: 1rem;
   color: var(--color-first);
   text-align: center;
   font-family: "Press Start 2P";
   font-size: 2rem;
   font-weight: 400;
-  display: flex;
-  flex-direction: column;
-
-
-}
-
-.card figcaption span {
-  padding-bottom: 1rem;
   display: inline-block;
+  margin: 0;
 }
 
 .card figcaption:after {
@@ -451,18 +625,4 @@ footer img {
   width: .25rem;
   content: " ";
   border-left: .25rem dotted var(--color-black-first);
-}
-
-.slide {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.slide,
-.company {
-  display: flex;
-  gap: 3rem;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
 }
