@@ -1,161 +1,176 @@
 #  [HTML e CSS Feliz](https://www.youtube.com/watch?v=CZPa3-1BKnY&list=PLirko8T4cEmzrH3jIJi7R7ufeqcpXYaLa) por [Marco Bruno](http://twitter.com/marcobrunodev)
   
-  Lista de atividades
-- [x] ~~Projeto do curso de HTML e CSS feliz | Mod 00 - Aula 01~~
-- [x] ~~Pré-requisitos do curso de HTML e CSS feliz | Mod 00 - Aula 02~~
-- [x] ~~Onde tirar sua dúvidas do curso feliz de HTML e CSS | Mod 00 - Aula 03~~
-- [x] ~~Introdução ao VSCode | Mod 00 - Aula 04~~
-- [x] ~~Figma para devs | Mod00 - Aula 05~~
-- [x] ~~Revisão Módulo 00 | Mod00 - Aula 06~~
-- [x] ~~Desafios top-top-top | Mod00 - Aula 07~~
-- [x] ~~Criando pasta do projeto | Mod01 - Aula 01~~
-- [x] ~~Como alterar layout no figma | Mod01 - Aula 02~~
-- [x] ~~Introdução ao HTML | Mod01 - Aula 03~~
-- [x] ~~Como criar o cabeçalho (header) - Parte 1 | Mod01 - Aula 04~~
-- [x] ~~Devo ou não devo comentar o código? | Mod01 - Aula 05~~
-- [x] ~~Como estruturar o HTML | Mod01 - Aula 06~~
-- [x] ~~Atributo global no HTML | Mod01 - Aula 07~~
-- [x] ~~HTML feliz com Emmet | Mod01 - Aula 08~~
-- [x] ~~Introdução ao CSS | Mod01 - Aula 09~~
-- [x] ~~Como importar o CSS | Mod01 - Aula 10~~
-- [x] ~~Sistema de cores | Mod01 - Aula 11~~
-- [x] ~~Reset CSS | Mod01 - Aula 12~~
-- [x] ~~Exemplos de Reset CSS | Mód01 - Aula 13~~
-- [x] ~~CSS do menu de navegação | Mód01 - Aula 14~~
-- [x] ~~Qual a diferença entre Serif e Sans Serif? | Mód01 - Aula 15~~
-- [x] ~~Como estilizar um botão | Mód01 - Aula 16~~
-- [x] ~~O que é a propriedade display? | Mód01 - Aula 17~~
-- [x] ~~Como funciona o display: inline | Mód01 - Aula 18~~
-- [x] ~~Como funciona o display: block | Mód01 - Aula 19~~
-- [x] ~~Como funciona o display: inline-block | Mód01 - Aula 20~~
-- [x] ~~Qual a diferença entre padding e margin? | Mód01 - Aula 21~~
-- [x] ~~Forma específica e resumida | Mód01 - Aula 22~~
-- [x] ~~O px no CSS não é 1px da tela | Mód01 - Aula 23~~
-- [x] ~~Detalhe nos itens do menu | Mód01 - Aula 24~~
-- [x] ~~CSS do header - Parte 2 | Mód01 - Aula 25~~
-- [x] ~~Revisão Módulo 01 | Mod01 - Aula 26~~
-- [x] ~~Desafios top-top-top | Mód01 - Aula 27~~
-- [x] ~~Como mudar logo e cores do header | Mód02 - Aula 01~~
-- [x] ~~Efeito hover no button | Mód02 - Aula 02~~
-- [x] ~~O que é Git? | Mód02 - Aula 03~~
-- [x] ~~Como instalar o Git? | Mód02 - Aula 04~~
-- [x] ~~O que é repositório? | Mód02 - Aula 05~~
-- [x] ~~Como fazer commit com Git | Mód02 - Aula 06~~
-- [x] ~~Como editar mensagem do commit com Git | Mód02 - Aula 07~~
-- [x] ~~O que é GitHub? | Mód02 - Aula 08~~
-- [x] ~~Como criar repositório no GitHub? | Mód02 - Aula 09~~
-- [x] ~~Como enviar o código para o GitHub | Mód02 - Aula 10~~
-- [x] ~~Como clonar um repositório do GitHub | Mód02 - Aula 11~~
-- [x] ~~O que é o GitHub pages? | Mód02 - Aula 12~~
-- [x] ~~Como criar site no GitHub pages | Mód02 - Aula 13~~
-- [x] ~~Como colocar seu projeto no ar com o GitHub Pages | Mód02 - Aula 14~~
-- [x] ~~Revisão Módulo 02 | Mod02 - Aula 15~~
-- [x] ~~Desafios top-top-top | Mód02 - Aula 16~~
-- [x] ~~Como criar HTML do title | Mód03 - Aula 01~~
-- [x] ~~CSS do title - Parte I | Mód03 - Aula 02~~
-- [x] ~~Como inserir sombra no texto | Mód03 - Aula 03~~
-- [x] ~~Organizando o CSS do projeto | Mód03 - Aula 04~~
-- [x] ~~Passo a passo: commit do component title | Mód03 - Aula05~~
-- [x] ~~HTML do subtitle | Mód03 - Aula 06~~
-- [x] ~~CSS do subtitle | Mód03 - Aula 07~~
-- [x] ~~Commit do component subtitle | Mód03 - Aula 08~~
-- [x] ~~HTML do box e tag div | Mód03 - Aula 09~~
-- [x] ~~CSS do component BOX | Mód03 - Aula 10~~
-- [x] ~~Como reutilizar componentes | Mód03 - Aula 11~~
-- [x] ~~Commit do component box | Mód03 - Aula 12~~
-- [x] ~~Como isolar código do componente | Mód03 - Aula 13~~
-- [x] ~~Quando usar class e id | Mód03 - Aula 14~~
-- [x] ~~Quando usar seletor de tag | Mód03 - Aula 15~~
-- [x] ~~Quando usar seletor de id | Mód03 - Aula 16~~
-- [x] ~~Quando usar seletor de class | Mód03 - Aula 17~~
-- [x] ~~Commit do component button | Mód03 - Aula 18~~
-- [x] ~~Commit da refatoração | Mód03 - Aula 19~~
-- [x] ~~Como inserir imagem de fundo x Tag section | Mód03 - Aula 20~~
-- [x] ~~Diferença entre div e section | Mód03 - Aula 21~~
-- [x] ~~Estilizando o banner | Mód03 - Aula 22~~
-- [x] ~~Como posicionar os elementos do banner | Mód03 - Aula 23~~
-- [x] ~~Adicionando respiros no box | Mód03 - Aula 24~~
-- [x] ~~Commit do banner | Mód03 - Aula 25~~
-- [x] ~~Revisão Módulo 03 | Mód03 - Aula 26~~
-- [x] ~~Desafios top-top-top | Mód03 - Aula 27~~
-- [x] ~~Variação do component title | Mód04 - Aula01~~
-- [x] ~~Commit da variação | Mód04 - Aula02~~
-- [x] ~~Como criar o component section | Mód04 - Aula03~~
-- [x] ~~Commit do component section | Mód04 - Aula 04~~
-- [x] ~~HTML do component skill | Mód04 - Aula05~~
-- [x] ~~CSS do component skill | Mód04 - Aula 06~~
-- [x] ~~Como posicionar ícone e título | Mód04 - Aula 07~~
-- [x] ~~HTML e CSS do component progress-bar | Mód04 - Aula 08~~
-- [x] ~~Como posicionar ícone, título e barra | Mód04 - Aula 09~~
-- [x] ~~Commits e mais commits | Mód04 - Aula10~~
-- [x] ~~Criando os componentes da seção skills | Mód04 - Aula 11~~
-- [x] ~~Propriedade align-items | Mód04 - Aula 12~~
-- [x] ~~Criando component wrapper-skill | Mód04 - Aula 13~~
-- [x] ~~Revisão Módulo 04 | Mód04 - Aula 14~~
-- [x] ~~Desafios top-top-top | Mód04 - Aula 15~~
-- [x] ~~HTML do component card project | Mód05 - Aula01~~
-- [x] ~~CSS do card project | Mód05 - Aula02~~
-- [x] ~~Variação do component card project | Mó05 - Aula03~~
-- [x] ~~Commit do card project | Mód05 - Aula 04~~
-- [x] ~~Criando as variações do component section | Mód05 - Aula05~~
-- [x] ~~Commit da variação do section | Mód05 - Aula 06~~
-- [x] ~~Criando component wrapper card | Mód05 - Aula 07~~
-- [x] ~~Commit do component wrapper card | Mód05 - Aula08~~
-- [x] ~~Como adicionar um link a uma imagem | Mód05 - Aula09~~
-- [x] ~~Commit dos links | Mód05 - Aula10~~
-- [x] ~~Refatoração do component action | Mód05 - Aula11~~
-- [x] ~~Refatoração do component banner | Mód05 - Aula12~~
-- [x] ~~Refatoração do component box | Mód05 - Aula13~~
-- [x] ~~Refatoração do component button | Mód05 - Aula14~~
-- [x] ~~Refatoração do component header | Mód05 - Aula15~~
-- [x] ~~Refatoração do component section | Mód05 - Aula16~~
-- [x] ~~Refatoração do component subtitle | Mód05 - Aula17~~
-- [x] ~~Revisão Módulo 05 | Mód05 - Aula18~~
-- [x] ~~Desafios top top top | Mód05 - Aula19~~
-- [x] ~~Como criar o component description | Mód06 - Aula01~~
-- [x] ~~CSS do component description | Mód06 - Aula02~~
-- [x] ~~Criando a section "sobre" | Mód06 - Aula03~~
-- [x] ~~Variação do component section | Mód06 - Aula04~~
-- [x] ~~HTML do component button arrow | Mód06 - Aula05~~
-- [x] ~~CSS do component button arrow | Mód06 - Aula06~~
-- [x] ~~Como criar setas com CSS - Parte I | Mód06 - Aula07~~
-- [x] ~~Como criar setas com CSS - Parte II | Mód06 - Aula08~~
-- [x] ~~Variação do component button arrow | Mód06 - Aula09~~
-- [x] ~~Criando o component node-card | Mód06 - Aula10~~
-- [x] ~~CSS do component node-card | Mód06 - Aula11~~
-- [x] ~~CSS do component node-card - Parte II | Mód06 - Aula12~~
-- [x] ~~Como criar linha do tempo na section sobre | Mód06 - Aula13~~
-- [x] ~~Variação do component node-card | Mód06 - Aula14~~
-- [x] ~~Variação de cor do component node-card | Mód06 - Aula15~~
-- [x] ~~Como posicionar o button do carousel | Mód06 - Aula16~~
-- [ ] Como alinhar os cards no carousel | Mód06 - Aula17
-- [ ] Como inserir uma linha na linha do tempo #CSS | Mód06 - Aula18
-- [ ] Como criar linha pontilhada #CSS | Mód06 - Aula19
-- [ ] Resolvendo bug na seção de projetos | Mód06 - Aula20
-- [ ] Movendo card de um carousel | Mód06 - Aula21
-- [ ] Como resolver bug de scroll horizontal | Mód06 Aula22
-- [ ] Seu primeiro JavaScript | Mód06 Aula23
-- [ ] Revisão do Módulo 06
-- [ ] Criar HTML do footer | Mód07 Aula01
-- [ ] Criar CSS do rodapé (footer) | Mód07 Aula02
-- [ ] Commit do main-footer | Mód07 Aula03
-- [ ] Desafios top top top do Módulo 06
-- [ ] Cria HTML do formulário | Mód07 Aula04
-- [ ] Cria component main-label | Mód07 Aula05
-- [ ] Commit main-label | Mód07 Aula06
-- [ ] Cria component main-input | Mód07 Aula07
-- [ ] Commit main-input | Mód07 Aula08
-- [ ] Variação do main-input | Mód07 Aula09
-- [ ] Commit da variação | Mód 07 Aula 10
-- [ ] Variação do Main Button | Mód 07 Aula 11
-- [ ] Commit do Main Button | Mód 07 Aula 12
-- [ ] Alinha Form e Componentes Filhos | Mód 07 Aula 13
-- [ ] Commit Main Form | Mód 07 Aula 14
-- [ ] Bug do Main Button | Mód 07 Aula 15
-- [ ] Commit Bug Main Button | Mód 07 Aula 16
-- [ ] Title no Main Form | Mód 07 Aula 17
-- [ ] Commit do Title | Mód 07 Aula 18
-- [ ] Validação do Main Form | Mód 07 Aula 19
-- [ ] Revisão | Mód 07 Aula 20
-- [ ] Desafio Final | Mód 07 Aula 21
+Lista de atividades
 
+##  ~~Módulo #0~~
+1. Projeto do curso de HTML e CSS feliz
+2. Pré-requisitos do curso de HTML e CSS feliz
+3. Onde tirar sua dúvidas do curso feliz de HTML e CSS
+4. Introdução ao VSCode
+5. Figma para devs
+6. Revisão Módulo 00
+7. Desafios top-top-top
+
+## ~~Módulo #1~~
+1. Criando pasta do projeto
+2. Como alterar layout no figma
+3. Introdução ao HTML
+4. Como criar o cabeçalho (header). Parte 1
+5. Devo ou não devo comentar o código?
+6. Como estruturar o HTML
+7. Atributo global no HTML
+8. HTML feliz com Emmet
+9. Introdução ao CSS
+10. Como importar o CSS
+11. Sistema de cores
+12. Reset CSS
+13. Exemplos de Reset CSS
+14. CSS do menu de navegação
+15. Qual a diferença entre Serif e Sans Serif?
+16. Como estilizar um botão
+17. O que é a propriedade display?
+18. Como funciona o display: inline
+19. Como funciona o display: block
+20. Como funciona o display: inline-block
+21. Qual a diferença entre padding e margin?
+22. Forma específica e resumida
+23. O px no CSS não é 1px da tela
+24. Detalhe nos itens do menu
+25. CSS do header. Parte 2
+26. Revisão Módulo 01
+27. Desafios top-top-top
+
+## ~~Módulo #2~~
+1. Como mudar logo e cores do header
+2. Efeito hover no button
+3. O que é Git?
+4. Como instalar o Git?
+5. O que é repositório?
+6. Como fazer commit com Git
+7. Como editar mensagem do commit com Git
+8. O que é GitHub?
+9. Como criar repositório no GitHub?
+10. Como enviar o código para o GitHub
+11. Como clonar um repositório do GitHub
+12. O que é o GitHub pages?
+13. Como criar site no GitHub pages
+14. Como colocar seu projeto no ar com o GitHub Pages
+15. Revisão Módulo 02
+16. Desafios top-top-top
+
+##  ~~Módulo #3~~
+1. Como criar HTML do title
+2. CSS do title. Parte I
+3. Como inserir sombra no texto
+4. Organizando o CSS do projeto
+5. Passo a passo: commit do component title
+6. HTML do subtitle
+7. CSS do subtitle
+8. Commit do component subtitle
+9. HTML do box e tag div
+10. CSS do component BOX
+11. Como reutilizar componentes
+12. Commit do component box
+13. Como isolar código do componente
+14. Quando usar class e id
+15. Quando usar seletor de tag
+16. Quando usar seletor de id
+17. Quando usar seletor de class
+18. Commit do component button
+19. Commit da refatoração
+20. Como inserir imagem de fundo x Tag section
+21. Diferença entre div e section
+22. Estilizando o banner
+23. Como posicionar os elementos do banner
+24. Adicionando respiros no box
+25. Commit do banner
+26. Revisão Módulo 03
+27. Desafios top-top-top
+
+## ~~Módulo #4~~
+1. Variação do component title
+2. Commit da variação
+3. Como criar o component section
+4. Commit do component section
+5. HTML do component skill
+6. CSS do component skill
+7. Como posicionar ícone e título
+8. HTML e CSS do component progress-bar
+9. Como posicionar ícone, título e barra
+10. Commits e mais commits
+11. Criando os componentes da seção skills
+12. Propriedade align-items
+13. Criando component wrapper-skill
+14. Revisão Módulo 04
+15. Desafios top-top-top
+
+##  ~~Módulo #5~~
+1. HTML do component card project
+2. CSS do card project
+3. Variação do component card project | Mó05
+4. Commit do card project
+5. Criando as variações do component section
+6. Commit da variação do section
+7. Criando component wrapper card
+8. Commit do component wrapper card
+9. Como adicionar um link a uma imagem
+10. Commit dos links
+11. Refatoração do component action
+12. Refatoração do component banner
+13. Refatoração do component box
+14. Refatoração do component button
+15. Refatoração do component header
+16. Refatoração do component section
+17. Refatoração do component subtitle
+18. Revisão Módulo 05
+19. Desafios top top top
+
+## ~~Módulo #6~~
+01. Como criar o component description
+02. CSS do component description
+03. Criando a section "sobre"
+04. Variação do component section
+05. HTML do component button arrow
+06. CSS do component button arrow
+07. Como criar setas com CSS. Parte I
+08. Como criar setas com CSS. Parte II
+09. Variação do component button arrow
+10. Criando o component node-card
+11. CSS do component node-card
+12. CSS do component node-card. Parte II
+13. Como criar linha do tempo na section sobre
+14. Variação do component node-card
+15. Variação de cor do component node-card
+16. Como posicionar o button do carousel
+17. Como alinhar os cards no carousel
+18. Como inserir uma linha na linha do tempo #CSS
+19. Como criar linha pontilhada #CSS
+20. Resolvendo bug na seção de projetos
+21. Movendo card de um carousel
+22. Como resolver bug de scroll horizontal
+23. Seu primeiro JavaScript
+24. Revisão do Módulo 06
+
+## ~~Módulo #7~~
+01. Criar HTML do footer
+02. Criar CSS do rodapé (footer)
+03. Commit do main-footer
+06. Desafios top top top do Módul
+04. Cria HTML do formulário
+05. Cria component main-label
+06. Commit main-label
+07. Cria component main-input
+08. Commit main-input
+09. Variação do main-input
+10. Commit da variação
+11. Variação do Main Button
+12. Commit do Main Button
+13. Alinha Form e Componentes Filhos
+14. Commit Main Form
+15. Bug do Main Button
+16. Commit Bug Main Button
+17. Title no Main Form
+18. Commit do Title
+19. Validação do Main Form
+20. Revisão
+21. Desafio Final
