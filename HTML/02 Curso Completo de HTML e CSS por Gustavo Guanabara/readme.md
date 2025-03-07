@@ -1,4 +1,4 @@
-# [HTML5 e CSS3](https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)
+# [HTML5 e CSS3](https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n) por [Gustavo Guanabara](http://instagram.com/gustavoguanabara)
 
 1. Começa aqui o novo @CursoemVideo de HTML5 e CSS3
 2. O que vamos aprender no módulo 01?

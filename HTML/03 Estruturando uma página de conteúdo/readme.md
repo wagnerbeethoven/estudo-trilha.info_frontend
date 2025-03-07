@@ -6,6 +6,11 @@ Conteúdo original: [mdn web docs_](https://developer.mozilla.org/en-US/docs/Lea
 
 ---
 
+## PT-BR
+**Texto traduzido de maneira livre**
+
+---
+
 Estruturar uma página de conteúdo pronta para esquematizá-la usando CSS é uma habilidade muito importante a ser dominada, portanto, neste desafio, você será testado em sua capacidade de pensar sobre a aparência de uma página e escolher a semântica estrutural apropriada para construir um layout em cima.
 
 ## Ponto de partida
